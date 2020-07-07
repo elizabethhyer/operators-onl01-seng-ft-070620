@@ -16,4 +16,4 @@ def not_safe?(speed)
   end
 end
 
-
+speed = 215
