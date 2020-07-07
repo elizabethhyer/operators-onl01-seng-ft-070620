@@ -5,6 +5,7 @@ def unsafe?(speed)
     "unsafe"
   else 
     "safe"
+  end
 end
 
 
@@ -12,7 +13,7 @@ end
 def not_safe?(speed)
 	speed < 40 ? "not safe" : "safe"
 	speed > 60 ? "not safe" : "safe"
+  end
 end
-
 
 
